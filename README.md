@@ -52,7 +52,7 @@
 
   <h1>
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/adeelsabqi11/DARK-MAFIA-MD">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/adeelsabqi11/ADEEL-MD">
     <img src="https://img.shields.io/badge/Deploy-Heroku-7952B3?style=for-the-badge&logo=heroku&logoColor=white" />
   </a>
 </p>
