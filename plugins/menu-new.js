@@ -16,7 +16,7 @@ const showProgressLoading = async (conn, from, mek) => {
         "▰▰▰▰▰▰▰▱▱▱ 70%",
         "▰▰▰▰▰▰▰▰▱▱ 80%",
         "▰▰▰▰▰▰▰▰▰▱ 90%",
-        "▰▰▰▰▰▰▰▰▰▰ 100%\n⚙️ FAIZAN-MD Menu Ready"
+        "▰▰▰▰▰▰▰▰▰▰ 100%\n⚙️ ADEEL-XMD Menu Ready"
     ];
 
     let msg;
@@ -40,7 +40,7 @@ const showProgressLoading = async (conn, from, mek) => {
     } catch (error) {
         console.error("Progress bar error:", error);
         // Fallback: send simple loading message
-        msg = await conn.sendMessage(from, { text: "⚙️ Loading FAIZAN-MD Menu..." }, { quoted: mek });
+        msg = await conn.sendMessage(from, { text: "⚙️ Loading ADEEL-XMD Menu..." }, { quoted: mek });
     }
     
     return msg;
@@ -68,7 +68,7 @@ cmd({
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *FAIZAN-MD*
+│ 👑  Owner » *𝐌ᴀғɪᴀ-𝐀ᴅᴇᴇʟ*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
@@ -343,7 +343,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/ejufwa.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/e2sy8u.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
