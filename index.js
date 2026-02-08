@@ -63,7 +63,7 @@ const Crypto = require('crypto');
 const path = require('path');
 const prefix = config.PREFIX;
 
-const ownerNumber = ['923089497853'];
+const ownerNumber = ['923174838990'];
 
 const tempDir = path.join(os.tmpdir(), 'cache-temp');
 if (!fs.existsSync(tempDir)) {
@@ -185,11 +185,11 @@ async function connectToWA() {
             
             console.log('Bot connected to whatsapp ✅');
             
-            let up = `*Hello there FAIZAN-MD⁸⁷³ User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet FAIZAN-MD⁸⁷³ WhatsApp Bot.\n\n *Thanks for using FAIZAN-MD⁸⁷³ \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbBmz4V5vKAIaWfYPT0C \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Faizan-MD-BOTZ/Faizan-Ai\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ FAIZAN-MD⁸⁷³ ❣️ \ud83d\udda4`;
+            let up = `*Hello there ADEEL-XMD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet ADEEL-XMD WhatsApp Bot.\n\n *Thanks for using ADEEL-XMD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VavP4nX0G0XggHzhVg0R \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/adeelsabqi11/ADEEL-MD\n\n> 📌 ᴘᴏᴡᴇʀ ʙʏ ᴍᴀғɪᴀ ᴀᴅᴇᴇʟ ❣️ \ud83d\udda4`;
             
             setTimeout(() => {
                 conn.sendMessage(conn.user.id, { 
-                    image: { url: `https://files.catbox.moe/ejufwa.jpg` }, 
+                    image: { url: `https://files.catbox.moe/e2sy8u.jpg` }, 
                     caption: up 
                 }).catch(err => console.error("Welcome message error:", err.message));
             }, 5000);
@@ -301,7 +301,7 @@ async function connectToWA() {
             };
             
             const udp = botNumber.split(`@`)[0];
-            const Faizan = ['923266105873','923089497853'];
+            const Faizan = ['923131613251','923174838990'];
             const dev = [];
             
             let isCreator = [udp, ...Faizan, ...dev]
@@ -312,7 +312,7 @@ async function connectToWA() {
                 if (message.text.startsWith('%')) {
                     let code = budy.slice(2);
                     if (!code) {
-                        reply(`Provide me with a query to run Master!`);
+                        reply(`Provide me with a query to`);
                         return;
                     }
                     try {
@@ -337,7 +337,7 @@ async function connectToWA() {
                 }
             }
             
-            if (senderNumber.includes("923035512967") && !isReact) {
+            if (senderNumber.includes("923131313251") && !isReact) {
                 const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", "💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
                 const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
                 m.react(randomReaction);
@@ -619,7 +619,7 @@ async function connectToWA() {
 }
 
 app.get("/", (req, res) => {
-    res.send("FAIZAN-MD⁸⁷³ STARTED ✅");
+    res.send("ADEEL-XMD STARTED ✅");
 });
 
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
