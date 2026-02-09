@@ -1,6 +1,6 @@
 /**
- * FAIZAN-MD⁸⁷³ Bot - Ultra Fixed & Optimized
- * © 2026 Faizan Botz
+ * ADEEL-MD⁸⁷³ Bot - Ultra Fixed & Optimized
+ * © 2026 ADEEL Botz
  * ✅ Anti-Delete (All Media) | ✅ Auto Status View (100% Working) | ✅ Maximum Uptime
  */
 
@@ -61,7 +61,7 @@ process.env.UV_THREADPOOL_SIZE = '128';
 
 // ==================== CENTRALIZED LOGGING ====================
 function log(message, color = 'white', isError = false) {
-  const prefix = chalk.blue.bold('[ FAIZAN-MD⁸⁷³ ]');
+  const prefix = chalk.blue.bold('[ ADEEL-MD⁸⁷³ ]');
   const logFunc = isError ? console.error : console.log;
   const coloredMessage = chalk[color](message);
   
@@ -673,7 +673,7 @@ if (!fs.existsSync(sessionDir)) {
 
 if (!fs.existsSync(credsPath)) {
   if (config.SESSION_ID && config.SESSION_ID.trim() !== "") {
-    const sessdata = config.SESSION_ID.replace("FAIZAN-MD~", '');
+    const sessdata = config.SESSION_ID.replace("ADEEL-MD~", '');
     try {
       const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
       fs.writeFileSync(credsPath, decodedData);
